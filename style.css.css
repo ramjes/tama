@@ -1,0 +1,48 @@
+.text:hover{
+    color: orange;
+}
+.text:hover::after{
+    width: 100%;
+}
+
+.text::after{
+    content: '';
+    position: absolute;
+    background-color: orange;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3;
+}
+
+.titik-1{
+    width: 20px;
+    height: 3px;
+    background-color: orange;
+   
+}
+.titik-2{
+    width: 28px;
+    height: 3px;
+    background-color: orange;
+   
+}
+.titik-3{
+    width: 39px;
+    height: 3px;
+    background-color: orange;
+   
+}
+
+.container-titik{
+    justify-content: center;
+    flex-direction: column-reverse;
+    display: flex;
+    
+    gap: 5px;
+}
+
+.tinggi{
+    margin-top: 100px;
+}
